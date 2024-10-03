@@ -26,11 +26,11 @@ const contactItems = [
   //   link: 'iamnitinr',
   //   href: 'https://www.twitter.com/iamnitinr',
   // },
-  {
-    social: 'instagram',
-    link: 'jonathan.adityaaa',
-    href: 'https://www.instagram.com/iamnitinrhttps://www.instagram.com/jonathan.adityaaa/?hl=id',
-  },
+  // {
+  //   social: 'instagram',
+  //   link: 'jonathan.adityaaa',
+  //   href: 'https://www.instagram.com/iamnitinrhttps://www.instagram.com/jonathan.adityaaa/?hl=id',
+  // },
   // {
   //   social: 'polywork',
   //   link: 'nitinranganath',

@@ -1,0 +1,15 @@
+{
+  "/_app": "pages/_app.js",
+  "/_error": "pages/_error.js",
+  "/api/contact": "pages/api/contact.js",
+  "/api/projects": "pages/api/projects.js",
+  "/cv": "pages/cv.js",
+  "/articles": "pages/articles.js",
+  "/contact": "pages/contact.js",
+  "/about": "pages/about.js",
+  "/": "pages/index.js",
+  "/settings": "pages/settings.js",
+  "/projects": "pages/projects.js",
+  "/_document": "pages/_document.js",
+  "/github": "pages/github.js"
+}

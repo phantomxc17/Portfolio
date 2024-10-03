@@ -1,0 +1,132 @@
+.profileFrame {
+  display: inline-block;
+  padding: 10px;
+  transition: transform 0.3s ease; 
+}
+
+.profileFrame:hover {
+  transform: scale(1.05); 
+}
+
+.centerContainer {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 20%;
+}
+
+.centerText {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 70%;
+}
+
+.himtiFrame {
+  display: inline-block;
+  margin-left: 80px;
+  padding: 10px;
+  transition: transform 0.3s ease; 
+}
+
+.himtiFrame:hover {
+  transform: scale(1.05); 
+}
+
+.skillsEducationContainer {
+  display: flex;                   
+  justify-content: space-between;  
+  margin-top: 20px;               
+  width: 73%;                     
+  margin-left: auto;              
+  margin-right: auto;                       
+  border-radius: 10px;            
+  padding: 20px;                  
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); 
+}
+
+.skillsText, .educationText {
+  flex: 1;                         
+  margin: 0 10px;                 
+  padding: 10px;                  
+  box-shadow: none;                
+  border: 1px solid white;         
+  border-radius: 8px;             
+  color: white;                   
+}
+
+.skillsText h2, .educationText h2 {
+  margin-bottom: 10px;            
+}
+
+.skillsContainer {
+  display: flex;
+  flex-wrap: wrap;                
+  justify-content: center;         
+  gap: 20px;                      
+  margin: 20px 0;                 
+  width: 100%;                    
+}
+
+.skillBox {
+  background-color: #f0f0f0;      
+  border-radius: 15px;            
+  padding: 10px;                  
+  display: flex;
+  align-items: center;            
+  justify-content: center;        
+  width: 70px;                    
+  height: 70px;                   
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2); 
+  transition: transform 0.2s;     
+  animation: slideIn 0.8s;        
+}
+
+.skillBox:hover {
+  transform: scale(1.1);          
+}
+
+.educationText ul li {
+  margin-left: 15px;              
+}
+
+.educationText  p {
+  margin-left: 15px;              
+}
+
+.educationText ul li p {
+  margin-left: 15px;              
+}
+
+
+.eduAnimation{
+  animation: slideIn 0.8s; 
+}
+
+@keyframes slideIn {
+  0% {
+    transform: translateY(50px);  
+    opacity: 0;
+  }
+  100% {
+    transform: translateY(0);      
+    opacity: 1;
+  }
+}
+
+@keyframes fadeInUp {
+  0% {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.fadeInUp {
+  opacity: 0;
+  animation: fadeInUp 1s ease-in-out forwards;
+  animation-delay: 0.2s; 
+}

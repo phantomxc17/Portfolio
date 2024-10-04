@@ -7,6 +7,7 @@ import csharpPic from '../components/assets/csharp.svg';
 import cssPic from '../components/assets/css.svg';
 import htmlPic from '../components/assets/html.svg';
 import jsPic from '../components/assets/js.svg';
+import latexPic from '../components/assets/latex.svg';
 import nodePic from '../components/assets/node.svg';
 import officePic from '../components/assets/office.svg';
 import phpPic from '../components/assets/php.svg';
@@ -76,6 +77,9 @@ const AboutPage = () => {
             </div>
             <div className={styles.skillBox}>
               <Image src={jsPic} alt="JavaScript" width={50} height={50} />
+            </div>
+            <div className={styles.skillBox}>
+              <Image src={latexPic} alt="Latex" width={50} height={50} />
             </div>
             <div className={styles.skillBox}>
               <Image src={nodePic} alt="Node.js" width={50} height={50} />

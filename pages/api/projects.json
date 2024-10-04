@@ -1,7 +1,7 @@
 [
   {
     "id": 1,
-    "name": "ResQ-Food",
+    "name": "ResQ Food",
     "image": "https://imgur.com/FAY099m.png",
     "description": "An application for selling food with close expiry date is close.",
     "tags": ["java"],

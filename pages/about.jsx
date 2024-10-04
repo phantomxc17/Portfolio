@@ -10,6 +10,7 @@ import jsPic from '../components/assets/js.svg';
 import nodePic from '../components/assets/node.svg';
 import officePic from '../components/assets/office.svg';
 import phpPic from '../components/assets/php.svg';
+import sqlPic from '../components/assets/sql.svg';
 import pythonPic from '../components/assets/python.svg';
 import reactPic from '../components/assets/react.svg';
 import unityPic from '../components/assets/unity.svg';
@@ -84,6 +85,9 @@ const AboutPage = () => {
             </div>
             <div className={styles.skillBox}>
               <Image src={phpPic} alt="PHP" width={50} height={50} />
+            </div>
+            <div className={styles.skillBox}>
+              <Image src={sqlPic} alt="Sql" width={50} height={50} />
             </div>
             <div className={styles.skillBox}>
               <Image src={pythonPic} alt="Python" width={50} height={50} />

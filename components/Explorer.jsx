@@ -30,6 +30,11 @@ const explorerItems = [
     path: '/github',
     icon: 'markdown_icon.svg',
   },
+  {
+    name: 'cv.json',
+    path: 'https://drive.google.com/file/d/1QoLdxmbj4GgR5hVAq60XqN_HyQw-9hPW/view',
+    icon: 'json_icon.svg',
+  },
 ];
 
 const Explorer = () => {
@@ -57,19 +62,39 @@ const Explorer = () => {
           className={styles.files}
           style={portfolioOpen ? { display: 'block' } : { display: 'none' }}
         >
-          {explorerItems.map((item) => (
-            <Link href={item.path} key={item.name}>
-              <div className={styles.file}>
+          {explorerItems.map((item) => {
+            const isExternalLink = item.path.startsWith('http');
+
+            return isExternalLink ? (
+              <a
+                href={item.path}
+                target="_blank"
+                rel="noopener noreferrer"
+                key={item.name}
+                className={styles.file}
+              >
                 <Image
                   src={`/${item.icon}`}
                   alt={item.name}
                   height={18}
                   width={18}
-                />{' '}
+                />
                 <p>{item.name}</p>
-              </div>
-            </Link>
-          ))}
+              </a>
+            ) : (
+              <Link href={item.path} key={item.name}>
+                <div className={styles.file}>
+                  <Image
+                    src={`/${item.icon}`}
+                    alt={item.name}
+                    height={18}
+                    width={18}
+                  />
+                  <p>{item.name}</p>
+                </div>
+              </Link>
+            );
+          })}
         </div>
       </div>
     </div>

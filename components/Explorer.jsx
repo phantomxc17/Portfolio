@@ -32,7 +32,7 @@ const explorerItems = [
   },
   {
     name: 'cv.json',
-    path: 'https://drive.google.com/file/d/1VI1Bk7artSPwok1WsZ75Xmv-TvRFPYko/view?usp=drive_link',
+    path: '/',
     icon: 'json_icon.svg',
   },
 ];

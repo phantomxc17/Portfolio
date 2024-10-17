@@ -15,7 +15,7 @@ const CustomHead = ({ title }) => {
       <meta property="og:title" content="Jonathan Aditya Portfolio" />
       <meta
         property="og:description"
-        content=""
+        content="Computer Science Student"
       />
       <meta property="og:image" content="" />
       <meta property="og:url" content="" />
